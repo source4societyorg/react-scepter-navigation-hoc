@@ -1,6 +1,6 @@
 import { fromJS } from 'immutable';
 import { valueOrDefault } from '@source4society/scepter-utility-lib';
-import { namespacedReducerHandlerFunction } from '@source4society/scepter-reducer-lib';
+import { namespacedReducerHandler as namespacedReducerHandlerFunction } from '@source4society/scepter-reducer-lib';
 import { HIDE_NAVIGATION, NAVIGATION_HIDDEN, DISPLAY_NAVIGATION, NAVIGATION_DISPLAYED } from './constants';
 
 export const initialState = fromJS({
