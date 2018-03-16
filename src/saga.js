@@ -1,7 +1,7 @@
 import { delay } from 'redux-saga';
 import { takeEvery, put } from 'redux-saga/effects';
 import { valueOrDefault } from '@source4society/scepter-utility-lib';
-import { sagaHandler as sagaHandlerFunction } from '@source4society/react-authapp-container';
+import { sagaHandler as sagaHandlerFunction } from '@source4society/react-authapp-container/lib/saga';
 import { HIDE_NAVIGATION, DISPLAY_NAVIGATION } from './constants';
 import { navigationHidden, navigationDisplayed } from './actions';
 

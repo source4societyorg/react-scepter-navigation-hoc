@@ -1,6 +1,6 @@
 {
   "name": "@source4society/react-scepter-navigation-hoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react based navigation component state manager for scepter projects ",
   "main": "lib/index.js",
   "repository": "https://github.com/source4societyorg/react-scepter-navigation-hoc.git",
