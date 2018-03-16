@@ -34,5 +34,6 @@ export const withConnect = connect(mapStateToProps);
 
 export default compose(
   withReducer,
+  withSaga,
   withConnect,
 )(NavigationManager);
